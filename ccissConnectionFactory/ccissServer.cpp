@@ -1,6 +1,6 @@
-#include "ccissServer.h"
+﻿#include "ccissServer.h"
 #include "ccissHandShake.h"
-
+#include "widget.h"
 ccissServer::ccissServer(ccissNetworkEnvironment *networkEnvironment)
 {
     this->networkEnvironment = networkEnvironment;

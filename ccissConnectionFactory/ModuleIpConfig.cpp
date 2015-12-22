@@ -1,5 +1,5 @@
 #include "ModuleIpConfig.h"
-
+#include "widget.h"
 ModuleIpConfig::ModuleIpConfig()
 {
 

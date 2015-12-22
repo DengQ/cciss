@@ -4,6 +4,7 @@
 #include <QTcpSocket>
 #include <QHostAddress>
 #include <QString>
+#include <QDateTime>
 
 #include "ccissNetworkEnvironment.h"
 #include "ccissTransmissionTask.h"
@@ -21,8 +22,12 @@ private:
     qintptr sd;
     ccissNetworkEnvironment *networkEnvironment;
 
+    QString message;
+    quint16 totalBytes;
+    QString CurrentTime;
 public slots:
     void sendSelfInformation();
+    void startTransfer();
 
 };
 

@@ -1,5 +1,5 @@
 #include "ccissNetworkEnvironment.h"
-
+#include "widget.h"
 /**
  * @brief ccissNetworkEnvironment::ccissNetworkEnvironment
  */

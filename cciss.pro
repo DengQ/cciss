@@ -12,6 +12,7 @@ TARGET = cciss
 TEMPLATE = app
 
 INCLUDEPATH += ccissConnectionFactory
+INCLUDEPATH += ccissConstructIHM
 
 SOURCES += main.cpp\
         widget.cpp \
@@ -21,7 +22,8 @@ SOURCES += main.cpp\
     ccissConnectionFactory/ccissClient.cpp \
     ccissConnectionFactory/ccissNetworkEnvironment.cpp \
     ccissConnectionFactory/ccissTransmissionTask.cpp \
-    ccissConnectionFactory/ModuleIpConfig.cpp
+    ccissConnectionFactory/ModuleIpConfig.cpp \
+    ccissConstructIHM/ccissWidget.cpp
 
 HEADERS  += widget.h \
     ccissConnectionFactory/ccissServer.h \
@@ -30,7 +32,8 @@ HEADERS  += widget.h \
     ccissConnectionFactory/ccissClient.h \
     ccissConnectionFactory/ccissNetworkEnvironment.h \
     ccissConnectionFactory/ccissTransmissionTask.h \
-    ccissConnectionFactory/ModuleIpConfig.h
+    ccissConnectionFactory/ModuleIpConfig.h \
+    ccissConstructIHM/ccissWidget.h
 
 CONFIG += mobility
 MOBILITY = 

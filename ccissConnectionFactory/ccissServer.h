@@ -3,7 +3,7 @@
 
 #include <QTcpServer>
 #include "ccissNetworkEnvironment.h"
-
+#include <QDateTime>
 
 class ccissServer : public QTcpServer{
 
